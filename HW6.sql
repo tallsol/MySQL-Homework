@@ -51,6 +51,7 @@ DELIMITER //
 CREATE PROCEDURE even_number()
 BEGIN
     DECLARE num INT default 0;
+    
     DROP TABLE IF EXISTS nums;
     CREATE TABLE nums (num INT);
 
